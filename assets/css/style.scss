@@ -19,8 +19,8 @@ header {
   background: #1c1e1f;
 }
 
-.button.fork {
-  background-color: rgb(170, 202, 227);
+#banner .fork, #banner .button {
+  background: rgb(170, 202, 227);
   border: 1px solid rgb(128, 160, 185);
   color: #1c1e1f;
 }
@@ -28,4 +28,21 @@ header {
 #banner {
   background-color: #629aa9;
   border: 0px;
+}
+
+.header-link {
+  color: #1c1e1f;
+  text-decoration: none;
+}
+
+.header-link:hover {
+  color: #2f3437;
+}
+
+.link-cont {
+  position: fixed;
+  left: 50%;
+  margin-left: -350px;
+  margin-top: 18px;
+  font-size: 14px;
 }
