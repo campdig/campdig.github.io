@@ -25,6 +25,12 @@ header {
   color: #1c1e1f;
 }
 
+#banner .fork:hover, #banner .button:hover {
+  background: rgb(128, 160, 185);
+  border: 1px solid rgb(100, 132, 157);
+  color: #1c1e1f;
+}
+
 #banner {
   background-color: #629aa9;
   border: 0px;
@@ -33,6 +39,7 @@ header {
 .header-link {
   color: #1c1e1f;
   text-decoration: none;
+  margin-right: 10px;
 }
 
 .header-link:hover {
@@ -42,7 +49,7 @@ header {
 .link-cont {
   position: fixed;
   left: 50%;
-  margin-left: -350px;
-  margin-top: 18px;
+  margin-left: -220px;
+  margin-top: 15px;
   font-size: 14px;
 }
