@@ -40,7 +40,7 @@
       {{ content }}
       
       <h1>Recent Posts:</h1>
-      {% for post in site.posts %}
+      {% for post in site.posts limit:4 %}
       <article>
         <h2>
           <a href="{{ post.url }}">
