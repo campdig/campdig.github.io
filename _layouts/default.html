@@ -40,7 +40,7 @@
       {{ content }}
       
       <h1>Recent Posts:</h1>
-      {% assign post = site.posts limit:4 %}
+      {% for post in site.posts limit:4 %}
       <article>
         <h2>
           <a href="{{ post.url }}">
@@ -48,7 +48,7 @@
           </a>
         </h2>
         <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
-        {{ post.content }}
+        {{ post.excerpt }}
       </article>
     </section>
     <footer>
