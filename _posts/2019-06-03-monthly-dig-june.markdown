@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Zachary Fetters
 title:  "Welcome to Jekyll!"
 categories: [top50, posts]
 ---
