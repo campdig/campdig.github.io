@@ -40,6 +40,7 @@
       {{ content }}
       
       <h1>Recent Posts:</h1>
+      <br>
       {% for post in site.posts limit:4 %}
       <article>
         <h2>
@@ -48,7 +49,7 @@
           </a>
         </h2>
         <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
-        {{ post.excerpt }}
+        <p><small>{{ post.excerpt }}</small></p>
       </article>
       {% endfor %}
     </section>
